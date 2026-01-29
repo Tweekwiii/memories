@@ -1,1 +1,30 @@
+body {
+  background: #fffaf5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+.gallery {
+  columns: 3 260px;
+  column-gap: 1rem;
+}
+
+.gallery img,
+.gallery video {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 14px;
+  break-inside: avoid;
+}
 
